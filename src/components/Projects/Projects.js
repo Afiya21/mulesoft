@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import edirr from "../../Assets/edirr.gif";
 import online_therapy from "../../Assets/online_therapy.gif";
-import instagram from "../../Assets/instagram.gif";
+import usBank from "../../Assets/usbank.gif"
 import sign from "../../Assets/sign.gif"
 function Projects() {
   
@@ -22,12 +22,14 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={instagram}
+              imgPath={usBank}
               isBlog={false}
-              title="instagram"
-              description="clone instagram with node js,react js and mongoDb"
+              title="MuleSoft Developer"
+              description="Configure Mule service flows with various exception handling strategies such as Global Exception, Custom Exception and Choice Exception Strategies that notifies the user with custom and simple error descriptions.
+              "
+        
               
-          ghLink="https://github.com/Afiya21/instagrambackend"
+          
               
             />
           </Col>
