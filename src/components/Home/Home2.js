@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import {MdEmail} from "react-icons/fa"
 
 function Home2() {
   return (
@@ -67,6 +68,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+              
               
             </ul>
           </Col>
