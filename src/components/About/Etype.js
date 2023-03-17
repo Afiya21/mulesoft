@@ -6,9 +6,8 @@ function EType() {
     <Typewriter
       options={{
         strings: [
-          "BSC in Computer science from Unity Universty",
-          "BSC in software engineering from AlX Hollberton",
-          "MIS in Business LeaderShip(pending)",
+          "BSC in Computer science from Addis Ababa Universty",
+          
         ],
         autoStart: true,
         loop: true,
