@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import edirr from "../../Assets/edirr.gif";
-import online_therapy from "../../Assets/online_therapy.gif";
+import blu from "../../Assets/blu.gif";
+import uhg from "../../Assets/uhg.gif";
 import usBank from "../../Assets/usbank.gif"
-import sign from "../../Assets/sign.gif"
+import adt from "../../Assets/adt.gif"
 function Projects() {
   
   
@@ -24,7 +24,7 @@ function Projects() {
             <ProjectCard
               imgPath={usBank}
               isBlog={false}
-              title="MuleSoft Developer"
+              title="MuleSoft Developer at US BANK"
               description="Configure Mule service flows with various exception handling strategies such as Global Exception, Custom Exception and Choice Exception Strategies that notifies the user with custom and simple error descriptions.
               "
         
@@ -36,33 +36,29 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={edirr}
+              imgPath={blu}
               isBlog={false}
-              title="e-dirr"
-              description="this is integrating modern insurance with tradtional socal impact that act like insurance called edirr in ethiopia using mern for web app and flutter for mobile app"
-              
-              ghLink="https://github.com/Afiya21/eDirr "
+              title="MuleSoft Engineer at Blue Cross Blue Shield, Detroit MI"
+              description="eveloped the flows/orchestrations for integrating the components written on top of different internal platforms using Mule ESB."
               
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={online_therapy}
+              imgPath={uhg}
               isBlog={false}
-              title="online mental therapy"
-              description="this project want to solve peoples's insecurity to go to physcologiest.this web app developed by php "
-                ghLink="https://github.com/Afiya21/onlineTherapy"
+              title="Middleware Developer UnitedHealth Group. Tamp, FL "
+              description="Configure the OAuth provider module to connect with custom-built Java Class and OAuth API to implement Oauth2, MuleSoft JDBC object store, and clustering in the server."
                         
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-               imgPath={sign}
+               imgPath={adt}
               isBlog={false}
-              title="sign languge detection"
-              description="this project want to communicate people that use sign langueg as mother languge and oher people who can't sign languge"
-                      ghLink="https://github.com/Afiya21/handsign-detection"
+              title="MQ Engineer at ADT  Security Service, Fort Lauderdale, FL "
+              description="Worked closely with the application teams in designing the new environments and deploying them in DEV, QA, and PROD."
                         
             />
           </Col>
